@@ -16,7 +16,7 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
-  <link rel="icon" type="icon" href="assets/imgs/profile.png" />
+  <link rel="icon" type="icon" href="assets/imgs/custom.png" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap" rel="stylesheet">
@@ -27,10 +27,13 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <div class="hero_area " style="background-color: #FF99A2;">
+  <div class="hero_area " style="background-image: linear-gradient(to top, #121212, #191724, #1e1a35, #251d47, #2c2059);">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
@@ -52,9 +55,9 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="#home">HALAMAN UTAMA</a>
+                <a href="#about">HTM/HARGA</a>
+                <a href="#home">PESAN SEKARANG!</a>
               </div>
             </div>
           </div>
@@ -63,7 +66,7 @@
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class="slider_section">
+    <section class="slider_section" id="home">
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -73,26 +76,41 @@
                 <div class="detail-box">
                   <div class="number">
                   </div>
-                  <h1>
-                    I am <br>
-                    <span>
-                      mzackyfa
+                  <h1 data-aos="fade-up" data-aos-duration="2000">
+                    Puncak Bogor <br>
+                    <span data-aos="fade-up" data-aos-duration="2000">
+                      by 1KA02
                     </span>
                   </h1>
                   <div class="btn-box">
-                    <a href="#about" class="btn-1" style="border-radius: 25px;">
-                      Read More
+                    <a href="https://wa.me/6285716210254?text=Halo RanGg4" target="_blank" class="btn-1" style="border-radius: 25px;" data-aos="fade-right" data-aos-duration="10000">
+                      Chat Rangga
                     </a>
-                    <a href="http://www.zumpy.rozistudio.com" target="_blank" class="btn-2"
-                      style="border-radius: 25px;">
-                      Others
+                    <a href="https://wa.me/6281549658641?text=Halo Rek4l" target="_blank" class="btn-2"
+                      style="border-radius: 25px;" data-aos="fade-left" data-aos-duration="10000">
+                      Chat Rekal
                     </a>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 container">
-                <div class="img-box">
-                  <img src="assets/imgs/profile.png" alt="">
+                <div class="img-box" data-aos="fade-left">
+                  <img src="assets/imgs/custom.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-6 container">
+                <div class="img-box-2">
+                  <img src="assets/imgs/Custom2.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-6 container">
+                <div class="img-box-3">
+                  <img src="assets/imgs/Custom5.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-6 container">
+                <div class="img-box-4">
+                  <img src="assets/imgs/RekaL.png" alt="">
                 </div>
               </div>
             </div>
@@ -105,16 +123,16 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding" id="about" style="background-color: #FF99A2;">
+  <section class="about_section layout_padding" id="about" style="background-color: #121212;">
     <div class="container">
       <div class="detail-box">
         <div class="heading_container">
-          <h2>
-            Favorite Movie
+          <h2 data-aos="fade-left">
+            VILLA ONVYL
           </h2>
-          <p>
-            There are 4 my favorite movie.
-          </p>
+          <h3 data-aos="fade-right">
+            HTM 100K
+          </h3>
         </div>
       </div>
     </div>
@@ -128,43 +146,39 @@
     <div class="container">
       <div class="animal_container">
         <div class="box b1">
-          <div class="img-box">
-            <img src="assets/imgs/blacg.jpg" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Black Clover
-            </h5>
+          <div class="img-box" data-aos="flip-down">
+            <img src="assets/imgs/foto1.jpeg" alt="">
           </div>
         </div>
         <div class="box b2">
-          <div class="img-box">
-            <img src="assets/imgs/naruto.jpg" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Naruto The Series
-            </h5>
+          <div class="img-box" data-aos="flip-down">
+            <img src="assets/imgs/foto2.jpeg" alt="">
           </div>
         </div>
         <div class="box b1">
-          <div class="img-box">
-            <img src="assets/imgs/deku.jpg" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              My Hero Academia
-            </h5>
+          <div class="img-box" data-aos="flip-down">
+            <img src="assets/imgs/foto3.jpeg" alt="">
           </div>
         </div>
         <div class="box b2">
-          <div class="img-box">
-            <img src="assets/imgs/rumur.jpg" alt="">
+          <div class="img-box" data-aos="flip-down">
+            <img src="assets/imgs/foto4.jpeg" alt="">
           </div>
-          <div class="detail-box">
-            <h5>
-              That Time I Got Reincarnated as a Slime
-            </h5>
+        </div>
+        <div class="box b2">
+          <div class="img-box" data-aos="flip-down">
+            <img src="assets/imgs/foto5.jpeg" alt="">
+          </div>
+        </div>
+        <div class="box b2">
+          <div class="img-box" data-aos="flip-down">
+            <img src="assets/imgs/foto7.jpeg" href = "assets/imgs/foto7.jpeg" alt="">
+          </div>
+        </div>
+        <div class="box b2">
+          <div class="img-box" data-aos="flip-down">
+            <img src="assets/imgs/foto8.jpeg" alt="">
+          </div>
           </div>
         </div>
       </div>
@@ -173,52 +187,6 @@
 
   <!-- end animal section -->
 
-  <!-- info section -->
-  <section class="info_section" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-lg-6 m-auto text-center">
-          <div class="info_social">
-            <h5>
-              social media
-            </h5>
-            <div class="social_container">
-              <div>
-                <a href="#">
-                  <img src="assets/imgs/fb.png" alt="" />
-                </a>
-              </div>
-              <div>
-                <a href="#">
-                  <img src="assets/imgs/twitter.png" alt="" />
-                </a>
-              </div>
-              <div>
-                <a href="https://www.instagram.com/mzackyfa_/" target="_blank">
-                  <img src="assets/imgs/instagram.png" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-10 col-lg-6 m-auto text-center">
-          <div class="info_contact m-auto text-center">
-            <h5>
-              EMAIL
-            </h5>
-            <div>
-              <img src="images/mail.png" alt="" />
-              <p>
-                mochzackyaja@gmail.com
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div><!-- end of container -->
-  </section>
 
 
 
@@ -230,7 +198,7 @@
     <p>
       <script>
         document.write(new Date().getFullYear())
-      </script> &copy; <a href="http://www.zumpy.rozistudio.com">Zump.id</a>
+      </script> &copy; <a href="#">by 1KA02</a>
     </p>
   </section>
   <!-- end  footer section -->
@@ -246,7 +214,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+    <!-- CORE -->
   <script src="assets/js/main.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     window.addEventListener('load', function () {
       // Get the preloader element
@@ -258,6 +229,7 @@
       preloader.style.display = 'none';
       content.classList.remove('hidden');
     });
+    AOS.init();
     function openNav() {
       document.getElementById("myNav").classList.toggle("menu_width")
       document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
