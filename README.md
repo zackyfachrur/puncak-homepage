@@ -1,6 +1,5 @@
-# 1KA02
-#### Kenang - Kenangan semasa kuliah
-Preview Front-End 😉 :
+#### Landing Page
+Preview Code :
 ```js
 $(document).ready(function () {
     $(".navbar .nav-link").on("click", function (event) {
