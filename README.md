@@ -49,7 +49,6 @@ $(document).ready(function () {
     slidesPerView: 3,
     spaceBetween: 20,
     grabCursor: "true",
-    // Pagination Added
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
