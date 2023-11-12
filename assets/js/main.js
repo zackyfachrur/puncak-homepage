@@ -1,4 +1,3 @@
-// smooth scroll
 $(document).ready(function () {
     $(".navbar .nav-link").on("click", function (event) {
       if (this.hash !== "") {
@@ -18,14 +17,13 @@ $(document).ready(function () {
       }
     });
   });
-  
-  // navbar toggle
+
   $("#nav-toggle").click(function () {
     $(this).toggleClass("is-active");
     $("ul.nav").toggleClass("show");
   });
   
-  // Hide Body
+
   document.onkeydown = function (e) {
     if (event.keyCode == 123) {
       return false;
@@ -43,8 +41,7 @@ $(document).ready(function () {
       return false;
     }
   };
-  
-  // Swiper
+
   var swiper = new Swiper(".content", {
     slidesPerView: 3,
     spaceBetween: 20,
@@ -54,7 +51,6 @@ $(document).ready(function () {
       el: ".swiper-pagination",
       clickable: true,
     },
-    // Responsive Breakpoint Added
     breakpoints: {
       0: {
         slidesPerView: 1,
